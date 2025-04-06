@@ -18,6 +18,8 @@ export default function Homepage({ }: Props) {
                 <p>{(movies.movies as Movie[])[(movies.mainMovie as number)].description}</p>
             </div>
 
+            <h1>this is the coolest deploy!!!</h1>
+
             <Movies />
         </div>
     )
